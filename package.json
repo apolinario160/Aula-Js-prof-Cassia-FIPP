@@ -1,0 +1,30 @@
+{
+  "name": "aula-js-prof-cassia-fipp",
+  "version": "1.0.0",
+  "description": "Aula da professora Cássia UNOESTE-FIPP de Checkbox",
+  "main": "script.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node script.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/apolinario160/Aula-Js-prof-Cassia-FIPP.git"
+  },
+  "keywords": [
+    "checkbox",
+    "aula",
+    "cassia",
+    "UNOESTE-FIPP"
+  ],
+  "author": "Tiago Apolinario Gomes Filho",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/apolinario160/Aula-Js-prof-Cassia-FIPP/issues"
+  },
+  "homepage": "https://github.com/apolinario160/Aula-Js-prof-Cassia-FIPP#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}

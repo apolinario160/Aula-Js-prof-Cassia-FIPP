@@ -1,0 +1,48 @@
+<html>
+    <head>
+		<style>
+			* { font-family: calibri;
+				zoom: 110%;
+			}
+
+			.btnExcluir {
+				cursor: pointer;
+			}
+			.tab{
+				border: 1px solid black;
+				width: 60%;
+			}
+			.coluna{
+				border: 1px solid black;
+			}
+		</style>
+		<script src="script.js"></script>
+	
+    </head>
+    <body>
+	   <form id="f_Lista">
+			<input type="text" id="txt-texto" />
+			<input type="button" id="btn-add" value="+" />
+			<br />
+			<br />
+			<br />
+			<div>
+				<table id="grid" class="tab">
+					<thead>
+						<tr>
+							<th class="coluna"><input type="checkbox" id="ckTodos" onchange=""></th>
+							<th class="coluna">Itens</th>
+							<th class="coluna">Ação</th>
+						</tr>
+					</thead>
+					<tbody id="tb-body">
+						
+					</tbody>
+				</table>
+			</div>		
+			<div>		
+				<input type="button" value="excluir selecionados" id="btnExcluirSelecionados">
+			</div>
+      </form>
+    </body>
+</html>
